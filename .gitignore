@@ -57,3 +57,6 @@ stats.html
 *.local.json
 temp/
 tmp/
+
+# ---------- 本地上传/运行时产物（含真实业务文件，禁止入库）----------
+src/assets/localoss/

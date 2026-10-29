@@ -581,7 +581,7 @@ function handleDirectLogin(row) {
         permissionStore.generateRoutes(userStore.roles).then(() => {
           // 5. 提示成功
           proxy.$modal.msgSuccess("登录成功，正在跳转...")
-          // 6. 跳转到后台首页（router.push 会携带部署 base 路径 /ginkgo/）
+          // 6. 跳转到后台首页（router.push 会携带部署 base 路径 /xiaohucare/）
           setTimeout(() => {
             // window.location.reload()
             router.push('/index')
