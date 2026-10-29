@@ -6,7 +6,7 @@
         <el-icon><Link /></el-icon>开源地址
       </a>
       <em class="copyright-divider">|</em>
-      <a class="copyright-link" href="http://xiaohucare.com/" target="_blank" rel="noopener">
+      <a class="copyright-link" href="https://xiaohucare.github.io//" target="_blank" rel="noopener">
         <el-icon><Position /></el-icon>官网地址
       </a>
     </span>

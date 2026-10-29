@@ -9,7 +9,7 @@
         </div>
         <div class="nav-links">
           <a class="nav-link" @click="goTarget('/index')">首页</a>
-          <a class="nav-link" @click="openExternal('http://xiaohucare.com/')">官网</a>
+          <a class="nav-link" @click="openExternal('https://xiaohucare.github.io//')">官网</a>
           <el-dropdown trigger="hover" @command="openExternal">
             <span class="nav-link repo-trigger">
               开源仓库
@@ -212,7 +212,7 @@
           <div class="contact-line">
             <el-icon><Link /></el-icon>
             <span>官方网站</span>
-            <a class="contact-link" @click="openExternal('http://xiaohucare.com/')">xiaohucare.com</a>
+            <a class="contact-link" @click="openExternal('https://xiaohucare.github.io//')">xiaohucare.com</a>
           </div>
           <div class="contact-line">
             <el-icon><Promotion /></el-icon>

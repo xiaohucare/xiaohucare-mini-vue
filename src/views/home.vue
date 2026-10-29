@@ -265,8 +265,8 @@
             <div class="service-contact">
               <span class="contact-label">咨询邮箱</span>
               <span class="contact-value">
-                chongkelai@qq.com
-                <el-button link type="primary" size="small" @click="copyText('chongkelai@qq.com')">复制</el-button>
+                chongkelai#qq.com
+                <el-button link type="primary" size="small" @click="copyText('chongkelai#qq.com')">复制</el-button>
               </span>
             </div>
             <div class="service-wx">

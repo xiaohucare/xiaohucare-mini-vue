@@ -1,3 +1,5 @@
+~~~~
+
 <div align="center">
 
 <img src="docs/assets/logo.png" alt="小护康养 mini" width="88" />
@@ -14,7 +16,7 @@
 [![Node](https://img.shields.io/badge/Node-%3E%3D18-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Base](https://img.shields.io/badge/base-RuoYi--Vue3%20v3.9.0-ff6a00)](https://gitee.com/y_project/RuoYi-Vue)
 
-🐙 [GitHub](https://github.com/xiaohucare/xiaohucare-mini-vue) · 🚀 [Gitee](https://gitee.com/chongkelai/xiaohucare-mini-vue) · ⚙️ [后端仓库](https://github.com/xiaohucare/xiaohucare-mini) · 🏠 [官网](http://xiaohucare.com/)
+🐙 [GitHub](https://github.com/xiaohucare/xiaohucare-mini-vue) · 🚀 [Gitee](https://gitee.com/chongkelai/xiaohucare-mini-vue) · ⚙️ [后端仓库](https://github.com/xiaohucare/xiaohucare-mini) · 🏠 [官网](https://xiaohucare.github.io//)
 
 </div>
 
@@ -24,8 +26,9 @@
 
 ## 目录
 
-| 🚀 快速上手 | 🧩 二次开发 |
-| --- | --- |
+
+| 🚀 快速上手                                                                                                                                                                 | 🧩 二次开发                                                                                                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [项目简介](#项目简介)<br>[产品预览](#产品预览)<br>[技术栈](#技术栈)<br>[快速开始](#快速开始)<br>[环境变量](#环境变量)<br>[构建与部署](#构建与部署)<br>[常见问题](#常见问题) | [与后端的对应关系](#与后端的对应关系)<br>[目录结构](#目录结构)<br>[业务模块地图](#业务模块地图)<br>[开发约定](#开发约定)<br>[参与贡献](#参与贡献)<br>[安全与合规](#安全与合规)<br>[联系与支持](#联系与支持)<br>[致谢与许可](#致谢与许可) |
 
 ---
@@ -71,64 +74,70 @@
 
 ### 概览与档案
 
-| 👵 长者统计分析<br><sub>核心指标卡与多维度分布图表</sub> | 🖥 智慧园区大屏<br><sub>独立可视化大屏，由主应用外链打开</sub> |
-| :---: | :---: |
+
+|                                                     👵 长者统计分析<br><sub>核心指标卡与多维度分布图表</sub>                                                     |                                          🖥 智慧园区大屏<br><sub>独立可视化大屏，由主应用外链打开</sub>                                          |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="docs/screenshots/03-resident-statistics.png" target="_blank"><img src="docs/screenshots/03-resident-statistics.png" alt="长者统计分析" width="430"></a> | <a href="docs/screenshots/22-park-screen.png" target="_blank"><img src="docs/screenshots/22-park-screen.png" alt="智慧园区大屏" width="430"></a> |
-| 👥 客户列表<br><sub>长者档案检索与建档维护</sub> | 💳 会员卡中心<br><sub>开卡 / 充值 / 消费 / 余额统计</sub> |
-| <a href="docs/screenshots/02-resident-list.png" target="_blank"><img src="docs/screenshots/02-resident-list.png" alt="客户列表" width="430"></a> | <a href="docs/screenshots/04-member-card.png" target="_blank"><img src="docs/screenshots/04-member-card.png" alt="会员卡中心" width="430"></a> |
+|                                                         👥 客户列表<br><sub>长者档案检索与建档维护</sub>                                                         |                                            💳 会员卡中心<br><sub>开卡 / 充值 / 消费 / 余额统计</sub>                                            |
+|         <a href="docs/screenshots/02-resident-list.png" target="_blank"><img src="docs/screenshots/02-resident-list.png" alt="客户列表" width="430"></a>         |  <a href="docs/screenshots/04-member-card.png" target="_blank"><img src="docs/screenshots/04-member-card.png" alt="会员卡中心" width="430"></a>  |
 
 ### 合同与空间
 
-| 📄 合同管理<br><sub>签署状态、PDF 预览与到期提醒</sub> | 🧑‍🤝‍🧑 访客中心<br><sub>来访登记与通行记录</sub> |
-| :---: | :---: |
+
+|                                         📄 合同管理<br><sub>签署状态、PDF 预览与到期提醒</sub>                                         |                                                🧑‍🤝‍🧑 访客中心<br><sub>来访登记与通行记录</sub>                                                |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="docs/screenshots/06-contract.png" target="_blank"><img src="docs/screenshots/06-contract.png" alt="合同管理" width="430"></a> | <a href="docs/screenshots/05-visitor-center.png" target="_blank"><img src="docs/screenshots/05-visitor-center.png" alt="访客中心" width="430"></a> |
-| 🛏 房间床铺<br><sub>楼栋 / 楼层 / 房间 / 床位四级视图</sub> | 🏢 房间管理<br><sub>机构配置中的空间资料维护</sub> |
-| <a href="docs/screenshots/07-room-bed.png" target="_blank"><img src="docs/screenshots/07-room-bed.png" alt="房间床铺" width="430"></a> | <a href="docs/screenshots/20-room-manage.png" target="_blank"><img src="docs/screenshots/20-room-manage.png" alt="房间管理" width="430"></a> |
+|                                      🛏 房间床铺<br><sub>楼栋 / 楼层 / 房间 / 床位四级视图</sub>                                      |                                                 🏢 房间管理<br><sub>机构配置中的空间资料维护</sub>                                                 |
+| <a href="docs/screenshots/07-room-bed.png" target="_blank"><img src="docs/screenshots/07-room-bed.png" alt="房间床铺" width="430"></a> |    <a href="docs/screenshots/20-room-manage.png" target="_blank"><img src="docs/screenshots/20-room-manage.png" alt="房间管理" width="430"></a>    |
 
 ### 运营与照护
 
-| 📅 日程管理<br><sub>在住长者的照护日程（整页长图）</sub> | 🕐 值班排班<br><sub>按周排班与当班人员</sub> |
-| :---: | :---: |
-| <a href="docs/screenshots/08-daily-schedule.png" target="_blank"><img src="docs/screenshots/08-daily-schedule.png" alt="日程管理" width="430"></a> | <a href="docs/screenshots/09-duty-schedule.png" target="_blank"><img src="docs/screenshots/09-duty-schedule.png" alt="值班排班" width="430"></a> |
-| 🎪 活动中心<br><sub>活动发布与报名管理</sub> | 🍚 食堂中心<br><sub>菜谱排期与订餐</sub> |
-| <a href="docs/screenshots/11-activity-center.png" target="_blank"><img src="docs/screenshots/11-activity-center.png" alt="活动中心" width="430"></a> | <a href="docs/screenshots/12-meal-center.png" target="_blank"><img src="docs/screenshots/12-meal-center.png" alt="食堂中心" width="430"></a> |
-| 🔔 康养消息<br><sub>站内通知列表，对应顶部消息中心抽屉</sub> | |
-| <a href="docs/screenshots/13-care-message.png" target="_blank"><img src="docs/screenshots/13-care-message.png" alt="康养消息" width="430"></a> | |
+
+|                                               📅 日程管理<br><sub>在住长者的照护日程（整页长图）</sub>                                               |                                                   🕐 值班排班<br><sub>按周排班与当班人员</sub>                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+|  <a href="docs/screenshots/08-daily-schedule.png" target="_blank"><img src="docs/screenshots/08-daily-schedule.png" alt="日程管理" width="430"></a>  | <a href="docs/screenshots/09-duty-schedule.png" target="_blank"><img src="docs/screenshots/09-duty-schedule.png" alt="值班排班" width="430"></a> |
+|                                                     🎪 活动中心<br><sub>活动发布与报名管理</sub>                                                     |                                                     🍚 食堂中心<br><sub>菜谱排期与订餐</sub>                                                     |
+| <a href="docs/screenshots/11-activity-center.png" target="_blank"><img src="docs/screenshots/11-activity-center.png" alt="活动中心" width="430"></a> |   <a href="docs/screenshots/12-meal-center.png" target="_blank"><img src="docs/screenshots/12-meal-center.png" alt="食堂中心" width="430"></a>   |
+|                                             🔔 康养消息<br><sub>站内通知列表，对应顶部消息中心抽屉</sub>                                             |                                                                                                                                                  |
+|    <a href="docs/screenshots/13-care-message.png" target="_blank"><img src="docs/screenshots/13-care-message.png" alt="康养消息" width="430"></a>    |                                                                                                                                                  |
 
 ### 结算与台账
 
-| 🧾 离店结算<br><sub>费用明细与结算单</sub> | 💰 收费总览<br><sub>账单汇总与收缴情况（整页长图）</sub> |
-| :---: | :---: |
-| <a href="docs/screenshots/10-checkout-settlement.png" target="_blank"><img src="docs/screenshots/10-checkout-settlement.png" alt="离店结算" width="430"></a> | <a href="docs/screenshots/14-fee-overview.png" target="_blank"><img src="docs/screenshots/14-fee-overview.png" alt="收费总览" width="430"></a> |
-| 📦 收费套餐<br><sub>套餐与价格配置</sub> | 📑 汇总报表<br><sub>养老智慧台账报表（整页长图）</sub> |
-| <a href="docs/screenshots/15-fee-package.png" target="_blank"><img src="docs/screenshots/15-fee-package.png" alt="收费套餐" width="430"></a> | <a href="docs/screenshots/16-ledger-report.png" target="_blank"><img src="docs/screenshots/16-ledger-report.png" alt="汇总报表" width="430"></a> |
+
+|                                                          🧾 离店结算<br><sub>费用明细与结算单</sub>                                                          |                                             💰 收费总览<br><sub>账单汇总与收缴情况（整页长图）</sub>                                             |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+| <a href="docs/screenshots/10-checkout-settlement.png" target="_blank"><img src="docs/screenshots/10-checkout-settlement.png" alt="离店结算" width="430"></a> |  <a href="docs/screenshots/14-fee-overview.png" target="_blank"><img src="docs/screenshots/14-fee-overview.png" alt="收费总览" width="430"></a>  |
+|                                                           📦 收费套餐<br><sub>套餐与价格配置</sub>                                                           |                                              📑 汇总报表<br><sub>养老智慧台账报表（整页长图）</sub>                                              |
+|         <a href="docs/screenshots/15-fee-package.png" target="_blank"><img src="docs/screenshots/15-fee-package.png" alt="收费套餐" width="430"></a>         | <a href="docs/screenshots/16-ledger-report.png" target="_blank"><img src="docs/screenshots/16-ledger-report.png" alt="汇总报表" width="430"></a> |
 
 ### 物联 · 库存
 
-| 📡 定位报警<br><sub>定位设备、电子围栏与告警记录</sub> | 📈 库存看板<br><sub>WMS 出入库与库存统计</sub> |
-| :---: | :---: |
-| <a href="docs/screenshots/17-gps-alarm.png" target="_blank"><img src="docs/screenshots/17-gps-alarm.png" alt="定位报警" width="430"></a> | <a href="docs/screenshots/18-wms-dashboard.png" target="_blank"><img src="docs/screenshots/18-wms-dashboard.png" alt="库存看板" width="430"></a> |
-| 🚚 出货分析<br><sub>出货数据统计与趋势分析</sub> | |
-| <a href="docs/screenshots/19-wms-shipping.png" target="_blank"><img src="docs/screenshots/19-wms-shipping.png" alt="出货分析" width="430"></a> | |
+
+|                                             📡 定位报警<br><sub>定位设备、电子围栏与告警记录</sub>                                             |                                                  📈 库存看板<br><sub>WMS 出入库与库存统计</sub>                                                  |
+| :--------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
+|    <a href="docs/screenshots/17-gps-alarm.png" target="_blank"><img src="docs/screenshots/17-gps-alarm.png" alt="定位报警" width="430"></a>    | <a href="docs/screenshots/18-wms-dashboard.png" target="_blank"><img src="docs/screenshots/18-wms-dashboard.png" alt="库存看板" width="430"></a> |
+|                                                🚚 出货分析<br><sub>出货数据统计与趋势分析</sub>                                                |                                                                                                                                                  |
+| <a href="docs/screenshots/19-wms-shipping.png" target="_blank"><img src="docs/screenshots/19-wms-shipping.png" alt="出货分析" width="430"></a> |                                                                                                                                                  |
 
 ---
 
 ## 技术栈
 
-| 能力 | 依赖（版本取自 `package.json`） |
-| --- | --- |
-| 框架 | `vue` 3.5.16、`vue-router` 4.5.1、`pinia` 3.0.2 |
-| UI | `element-plus` 2.10.7、`@element-plus/icons-vue` 2.3.1 |
-| 构建 | `vite` 6.3.5、`@vitejs/plugin-vue` 5.2.4、`sass-embedded` 1.89.1 |
-| 请求 | `axios` 1.9.0（封装在 `src/utils/request.js`） |
-| 图表 | `echarts` 5.6.0、`vue-echarts` 6.6.0、`echarts-liquidfill` 3.1.0 |
-| PDF | `pdfjs-dist` 3.11.174、`vue-pdf-embed` 2.1.1（合同在线预览 / 签署区拖拽） |
-| 布局 | `splitpanes` 4.0.4（可拖分栏）、`vuedraggable` 4.1.0 |
-| 富文本 | `@wangeditor/editor` 5.1.23、`@vueup/vue-quill` 1.2.0（`overrides` 锁定 quill 2.0.2） |
-| 国际化 | `vue-i18n` 9.14.5（`src/i18n/langs/zh.js`、`en.js`） |
-| 视频 / 物联 | `ezuikit-js`（萤石云直播）、`@liveqing/liveplayer-v3` |
-| 其他 | `js-cookie`、`jsencrypt`（登录密码加密）、`nprogress`、`fuse.js`（搜索）、`file-saver`、`@vueuse/core` |
-| Vite 插件 | `unplugin-auto-import`、`unplugin-vue-setup-extend-plus`、`vite-plugin-svg-icons`、`vite-plugin-compression` |
+
+| 能力        | 依赖（版本取自`package.json`）                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| 框架        | `vue` 3.5.16、`vue-router` 4.5.1、`pinia` 3.0.2                                                              |
+| UI          | `element-plus` 2.10.7、`@element-plus/icons-vue` 2.3.1                                                       |
+| 构建        | `vite` 6.3.5、`@vitejs/plugin-vue` 5.2.4、`sass-embedded` 1.89.1                                             |
+| 请求        | `axios` 1.9.0（封装在 `src/utils/request.js`）                                                               |
+| 图表        | `echarts` 5.6.0、`vue-echarts` 6.6.0、`echarts-liquidfill` 3.1.0                                             |
+| PDF         | `pdfjs-dist` 3.11.174、`vue-pdf-embed` 2.1.1（合同在线预览 / 签署区拖拽）                                    |
+| 布局        | `splitpanes` 4.0.4（可拖分栏）、`vuedraggable` 4.1.0                                                         |
+| 富文本      | `@wangeditor/editor` 5.1.23、`@vueup/vue-quill` 1.2.0（`overrides` 锁定 quill 2.0.2）                        |
+| 国际化      | `vue-i18n` 9.14.5（`src/i18n/langs/zh.js`、`en.js`）                                                         |
+| 视频 / 物联 | `ezuikit-js`（萤石云直播）、`@liveqing/liveplayer-v3`                                                        |
+| 其他        | `js-cookie`、`jsencrypt`（登录密码加密）、`nprogress`、`fuse.js`（搜索）、`file-saver`、`@vueuse/core`       |
+| Vite 插件   | `unplugin-auto-import`、`unplugin-vue-setup-extend-plus`、`vite-plugin-svg-icons`、`vite-plugin-compression` |
 
 > **💡 提示**：`unplugin-auto-import` 已自动导入 `vue` / `vue-router` / `pinia` 的常用 API，仓内多数页面仍显式 `import { ref } from 'vue'` —— 两种写法都合法，改现有文件时**跟随上下文风格**即可。
 
@@ -138,12 +147,13 @@
 
 ### 环境要求
 
-| 项目 | 要求 |
-| --- | --- |
-| Node.js | **≥ 18**（Vite 6 的硬性要求，`package.json` 已声明 `engines`） |
-| 包管理器 | npm（锁文件为 `package-lock.json`；pnpm / yarn 亦可） |
-| 后端服务 | 需先启动配套 Java 后端，默认 `http://localhost:8187/xiaohucare-api/` |
-| 浏览器 | Chrome / Edge 近两年版本；IE 会跳转 `html/ie.html` 提示页 |
+
+| 项目     | 要求                                                                |
+| -------- | ------------------------------------------------------------------- |
+| Node.js  | **≥ 18**（Vite 6 的硬性要求，`package.json` 已声明 `engines`）     |
+| 包管理器 | npm（锁文件为`package-lock.json`；pnpm / yarn 亦可）                |
+| 后端服务 | 需先启动配套 Java 后端，默认`http://localhost:8187/xiaohucare-api/` |
+| 浏览器   | Chrome / Edge 近两年版本；IE 会跳转`html/ie.html` 提示页            |
 
 ### 启动
 
@@ -162,13 +172,14 @@ npm run dev
 
 ### 可用命令
 
-| 命令 | 说明 |
-| --- | --- |
-| `npm run dev` | 开发服务器，端口固定 `80`，自动打开浏览器 |
-| `npm run build` | 生产构建，产物在 `dist/` |
-| `npm run build:prod` | 等价于 `build`（同一份 `vite build`） |
+
+| 命令                  | 说明                                             |
+| --------------------- | ------------------------------------------------ |
+| `npm run dev`         | 开发服务器，端口固定`80`，自动打开浏览器         |
+| `npm run build`       | 生产构建，产物在`dist/`                          |
+| `npm run build:prod`  | 等价于`build`（同一份 `vite build`）             |
 | `npm run build:stage` | `vite build --mode staging`，读取 `.env.staging` |
-| `npm run preview` | 本地预览 `dist/` |
+| `npm run preview`     | 本地预览`dist/`                                  |
 
 构建压缩默认**关闭**：`vite/plugins/compression.js` 只在 `VITE_BUILD_COMPRESS` 存在时启用，支持 `gzip`、`brotli`（逗号分隔）。需要时在 env 文件加 `VITE_BUILD_COMPRESS = 'gzip'`。
 
@@ -180,16 +191,17 @@ npm run dev
 
 新增环境变量必须以 `VITE_` 开头才能在客户端代码中读到。三份 env 文件：`.env.development`、`.env.staging`、`.env.production`。
 
-| 变量 | development | staging | production | 说明 |
-| --- | --- | --- | --- | --- |
-| `VITE_APP_TITLE` | 小护康养 mini 版 | 同左 | 同左 | 浏览器标题 |
-| `VITE_APP_ENV` | development | staging | production | 决定 vite `base`：生产 `/xiaohucare/`，其余 `/` |
-| `VITE_APP_BASE_API` | `/dev-api` | `/stage-api` | `/xiaohucare-api` | axios `baseURL`，也是上传组件拼 `action` 的前缀 |
-| `VITE_APP_PROXY_TARGET` | `http://localhost:8187/xiaohucare-api/` | 同左 | —（生产走 nginx 反代） | `vite.config.js` 开发代理目标 |
-| `VITE_TDT_KEY` | 天地图 Key（默认空） | 空 | 空 | 地图定位，需自行申请后填入 |
-| `VITE_YS_ACCESS_TOKEN` | 萤石云 Token（默认空） | 空 | 空 | 视频直播播放鉴权，需自行申请后填入 |
 
-> **🔑 申请入口**：天地图 <https://console.tianditu.gov.cn/>、萤石开放平台 <https://open.ys7.com/>。仓库内两者**已置空**，请勿复用他人凭据，也不要把填好的 `.env` 提交回仓库（本地覆盖请用 `.env.development.local`，已被 `.gitignore` 忽略）。
+| 变量                    | development                             | staging      | production              | 说明                                           |
+| ----------------------- | --------------------------------------- | ------------ | ----------------------- | ---------------------------------------------- |
+| `VITE_APP_TITLE`        | 小护康养 mini 版                        | 同左         | 同左                    | 浏览器标题                                     |
+| `VITE_APP_ENV`          | development                             | staging      | production              | 决定 vite`base`：生产 `/xiaohucare/`，其余 `/` |
+| `VITE_APP_BASE_API`     | `/dev-api`                              | `/stage-api` | `/xiaohucare-api`       | axios`baseURL`，也是上传组件拼 `action` 的前缀 |
+| `VITE_APP_PROXY_TARGET` | `http://localhost:8187/xiaohucare-api/` | 同左         | —（生产走 nginx 反代） | `vite.config.js` 开发代理目标                  |
+| `VITE_TDT_KEY`          | 天地图 Key（默认空）                    | 空           | 空                      | 地图定位，需自行申请后填入                     |
+| `VITE_YS_ACCESS_TOKEN`  | 萤石云 Token（默认空）                  | 空           | 空                      | 视频直播播放鉴权，需自行申请后填入             |
+
+> **🔑 申请入口**：天地图 [https://console.tianditu.gov.cn/](https://console.tianditu.gov.cn/)、萤石开放平台 [https://open.ys7.com/](https://open.ys7.com/)。仓库内两者**已置空**，请勿复用他人凭据，也不要把填好的 `.env` 提交回仓库（本地覆盖请用 `.env.development.local`，已被 `.gitignore` 忽略）。
 
 ---
 
@@ -205,15 +217,16 @@ const baseUrl = VITE_APP_PROXY_TARGET || 'http://localhost:8187/xiaohucare-api/'
 
 `src/api` 下接口按一级命名空间分布（按调用次数统计，可大致判断模块体量）：
 
-| 命名空间 | 调用数 | 命名空间 | 调用数 |
-| --- | ---: | --- | ---: |
-| `/intra/care` | 149 | `/intra/gps` | 18 |
-| `/intra/hotel` | 81 | `/intra/alarm` | 17 |
-| `/intra/wms` | 51 | `/intra/stat` | 16 |
-| `/intra/iot` | 44 | `/intra/resident` | 16 |
-| `/intra/config` | 24 | `/intra/meal` | 16 |
-| `/intra/charge` | 22 | `/intra/ginkgo` | 13 |
-| `/intra/activity` | 9 | — | — |
+
+| 命名空间          | 调用数 | 命名空间          | 调用数 |
+| ----------------- | -----: | ----------------- | -----: |
+| `/intra/care`     |    149 | `/intra/gps`      |     18 |
+| `/intra/hotel`    |     81 | `/intra/alarm`    |     17 |
+| `/intra/wms`      |     51 | `/intra/stat`     |     16 |
+| `/intra/iot`      |     44 | `/intra/resident` |     16 |
+| `/intra/config`   |     24 | `/intra/meal`     |     16 |
+| `/intra/charge`   |     22 | `/intra/ginkgo`   |     13 |
+| `/intra/activity` |      9 | —                |     — |
 
 另有框架自带的 `/system/**`、`/monitor/**`、`/tool/**` 与通用上传 `/common/**`。
 
@@ -254,22 +267,23 @@ xiaohucare-mini-vue/
 
 ## 业务模块地图
 
-| `src/views` 目录 | 领域 | 对应接口目录 |
-| --- | --- | --- |
-| `store/` | 机构端设置：基本资料、员工、角色权限、空间（楼/层/房/床）、消息、文章、访客 | `api/store/*`、`api/care/*` |
-| `resident/` | 长者档案、会员卡片与长者统计分析 | `api/residents.js`、`api/resident/*` |
-| `customer/` | 客户、会员卡、卡套餐（开卡 / 充值 / 消费 / 统计） | `api/resident/residentCard.js`、`cardPackage.js` |
-| `contracts/` | 合同管理与合同模板（平台通用 + 机构自建、模板 PDF 上传） | `api/contracts.js` |
-| `fee/` | 收费、账单、结算 | `api/fee.js`、`api/care/billing.js` |
-| `ledger/` | 养老智慧台账与巡访工单 | `api/care/ledger.js` |
-| `e_care/` | 房间 / 入住 / 退住 / 日常安排 / 值班排班等康养主流程 | `api/care/*` |
-| `meals/` | 餐饮与餐次计费 | `api/meals.js` |
-| `wms/` | 库存物资与统计看板 | `api/wms/*`、`api/inventory.js` |
-| `devices/` `deviceState/` | 设备台账入口页、设备状态看板 | `api/deviceState.js`、`api/devices.js`、`api/deviceManage/*` |
-| `e_gps/` `video/` | 定位设备 / 围栏 / 轨迹 / 围栏告警、视频监控 | `api/gps/*`、`api/video.js` |
-| `activities/` | 活动与报名 | `api/activities.js` |
-| `system/` `monitor/` `tool/` | RuoYi 框架自带：用户 / 角色 / 菜单 / 字典 / 参数 / 日志、服务与缓存监控、代码生成 | `api/system/*`、`api/monitor/*`、`api/tool/*` |
-| `login.vue` `register.vue` `index.vue` `home.vue` | 登录注册、门户首页（开源介绍页）、后台工作台 | `api/login.js`、`api/care/home.js` |
+
+| `src/views` 目录                                  | 领域                                                                              | 对应接口目录                                                 |
+| ------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `store/`                                          | 机构端设置：基本资料、员工、角色权限、空间（楼/层/房/床）、消息、文章、访客       | `api/store/*`、`api/care/*`                                  |
+| `resident/`                                       | 长者档案、会员卡片与长者统计分析                                                  | `api/residents.js`、`api/resident/*`                         |
+| `customer/`                                       | 客户、会员卡、卡套餐（开卡 / 充值 / 消费 / 统计）                                 | `api/resident/residentCard.js`、`cardPackage.js`             |
+| `contracts/`                                      | 合同管理与合同模板（平台通用 + 机构自建、模板 PDF 上传）                          | `api/contracts.js`                                           |
+| `fee/`                                            | 收费、账单、结算                                                                  | `api/fee.js`、`api/care/billing.js`                          |
+| `ledger/`                                         | 养老智慧台账与巡访工单                                                            | `api/care/ledger.js`                                         |
+| `e_care/`                                         | 房间 / 入住 / 退住 / 日常安排 / 值班排班等康养主流程                              | `api/care/*`                                                 |
+| `meals/`                                          | 餐饮与餐次计费                                                                    | `api/meals.js`                                               |
+| `wms/`                                            | 库存物资与统计看板                                                                | `api/wms/*`、`api/inventory.js`                              |
+| `devices/` `deviceState/`                         | 设备台账入口页、设备状态看板                                                      | `api/deviceState.js`、`api/devices.js`、`api/deviceManage/*` |
+| `e_gps/` `video/`                                 | 定位设备 / 围栏 / 轨迹 / 围栏告警、视频监控                                       | `api/gps/*`、`api/video.js`                                  |
+| `activities/`                                     | 活动与报名                                                                        | `api/activities.js`                                          |
+| `system/` `monitor/` `tool/`                      | RuoYi 框架自带：用户 / 角色 / 菜单 / 字典 / 参数 / 日志、服务与缓存监控、代码生成 | `api/system/*`、`api/monitor/*`、`api/tool/*`                |
+| `login.vue` `register.vue` `index.vue` `home.vue` | 登录注册、门户首页（开源介绍页）、后台工作台                                      | `api/login.js`、`api/care/home.js`                           |
 
 > **💡 改页面前的动线**：先按上表定位 `api` 文件 → 顺着接口 URL 找到后端实体 → **前端字段名必须与后端实体属性一致**。
 
@@ -331,16 +345,17 @@ xiaohucare-mini-vue/
 
 ## 常见问题
 
-| 现象 | 原因与处理 |
-| --- | --- |
-| 启动报端口占用 | 开发端口固定 `80`，改 `vite.config.js` 的 `server.port` |
-| 接口全部 404 | `VITE_APP_PROXY_TARGET` 是否与后端实际地址 / 上下文路径一致 |
-| 登录后菜单空白 | 菜单由后端下发，先确认角色已分配菜单 |
-| PDF 预览白屏 / worker 报错 | [构建与部署](#构建与部署)中的 `manualChunks` 与 `dedupe` 被删改所致 |
-| 提交被拒"请勿重复提交" | 1 秒内重复点击，属拦截器保护；必要时关 `repeatSubmit` |
-| 打包后子目录刷新 404 | nginx 未配 `try_files ... /xiaohucare/index.html` 回退 |
-| 地图 / 视频不显示 | `VITE_TDT_KEY` / `VITE_YS_ACCESS_TOKEN` 未配置（仓库默认置空） |
-| 截图 / 图片加载不出来 | 相对路径基于仓库根，确认从 `README.md` 所在层引用 `docs/screenshots/**` |
+
+| 现象                       | 原因与处理                                                             |
+| -------------------------- | ---------------------------------------------------------------------- |
+| 启动报端口占用             | 开发端口固定`80`，改 `vite.config.js` 的 `server.port`                 |
+| 接口全部 404               | `VITE_APP_PROXY_TARGET` 是否与后端实际地址 / 上下文路径一致            |
+| 登录后菜单空白             | 菜单由后端下发，先确认角色已分配菜单                                   |
+| PDF 预览白屏 / worker 报错 | [构建与部署](#构建与部署)中的 `manualChunks` 与 `dedupe` 被删改所致    |
+| 提交被拒"请勿重复提交"     | 1 秒内重复点击，属拦截器保护；必要时关`repeatSubmit`                   |
+| 打包后子目录刷新 404       | nginx 未配`try_files ... /xiaohucare/index.html` 回退                  |
+| 地图 / 视频不显示          | `VITE_TDT_KEY` / `VITE_YS_ACCESS_TOKEN` 未配置（仓库默认置空）         |
+| 截图 / 图片加载不出来      | 相对路径基于仓库根，确认从`README.md` 所在层引用 `docs/screenshots/**` |
 
 ---
 
@@ -377,11 +392,12 @@ Bug 反馈请使用 Issue 模板并附上：复现步骤、浏览器与版本、
 
 商业化落地或二次开发遇到阻塞，可以通过以下方式联系：
 
-| 渠道 | 说明 |
-| --- | --- |
-| 🐙 GitHub Issues | 缺陷反馈与功能建议（首选，便于公开沉淀） |
-| ✉️ 咨询邮箱 | [chongkelai@qq.com](mailto:chongkelai@qq.com) |
-| 💬 微信咨询 | 扫码添加，获取产品演示、部署与定制开发等技术支持 |
+
+| 渠道             | 说明                                             |
+| ---------------- | ------------------------------------------------ |
+| 🐙 GitHub Issues | 缺陷反馈与功能建议（首选，便于公开沉淀）         |
+| ✉️ 咨询邮箱    | [chongkelai#qq.com](mailto:chongkelai#qq.com)    |
+| 💬 微信咨询      | 扫码添加，获取产品演示、部署与定制开发等技术支持 |
 
 <p align="center">
   <img src="docs/assets/wechat-support.jpg" alt="微信咨询二维码" width="180" />
