@@ -1,5 +1,3 @@
-~~~~
-
 <div align="center">
 
 <img src="docs/assets/logo.png" alt="小护康养 mini" width="88" />
